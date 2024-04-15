@@ -11,4 +11,11 @@ npm create vite@latest my-react-app --template react
   press c + enter to clear console
   press q + enter to quit
 
-  
+We can create out own react components
+
+function Heading() {
+  return  <h1>My Favourite Foods</h1>;
+}
+---> <Heading/>
+
+We can create a filesystem for it with .jsx
